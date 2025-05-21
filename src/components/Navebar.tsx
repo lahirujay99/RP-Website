@@ -81,7 +81,7 @@ const Navbar = () => {
       transition={{ duration: 0.5 }}
     >
       <div className="flex justify-between items-center w-full lg:w-auto">
-        <h1 className="text-white font-bold text-xl">E Learning</h1>
+        <h1 className="text-white font-bold text-xl">Multisensory Learning Tools Research</h1>
         
         {/* Mobile menu button */}
         <button
