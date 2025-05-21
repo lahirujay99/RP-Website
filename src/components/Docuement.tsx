@@ -8,7 +8,7 @@ import invidulekame from "../assets/documents/it21155352_24-25J-096 (3).pdf";
 import reserchpaper from "../assets/documents/IEEE_Conference_Template (65).pdf";
 
 // Utility components matching Eco-vision style
-const PrimaryTypo = ({ text }) => {
+const PrimaryTypo = ({ text }: { text: string }) => {
   return (
     <h2 className="text-3xl font-extrabold text-blue-800 sm:text-4xl text-center">
       <span className="block">{text}</span>
@@ -17,7 +17,7 @@ const PrimaryTypo = ({ text }) => {
   );
 };
 
-const SecondaryTypo = ({ text }) => {
+const SecondaryTypo = ({ text }: { text: string }) => {
   return (
     <h3 className="text-2xl font-bold text-gray-800 mb-4 text-center">
       {text}
