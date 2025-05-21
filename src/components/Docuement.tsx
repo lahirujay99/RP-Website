@@ -1,4 +1,3 @@
-import React from "react";
 import { FaFilePdf } from "react-icons/fa";
 import { FaFilePowerpoint } from "react-icons/fa";
 

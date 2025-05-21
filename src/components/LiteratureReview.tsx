@@ -1,5 +1,3 @@
-// filepath: c:\Users\lahir\Desktop\New folder (16)\RP-site\src\components\LiteratureReview.tsx
-import React from 'react'
 import { motion } from "framer-motion";
 
 function LiteratureReview() {
