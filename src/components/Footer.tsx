@@ -52,8 +52,7 @@ function Footer() {
               </a>
             </div>
             <p className="text-sm text-blue-200">
-              Colombo, Sri Lanka<br />
-              SLIIT Research Project
+              Colombo, Sri Lanka
             </p>
           </div>
         </div>

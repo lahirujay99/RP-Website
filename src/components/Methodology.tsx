@@ -1,6 +1,6 @@
 // No React import needed with React 17+ and JSX Transform
 import { motion } from "framer-motion";
-
+import diagram from '../assets/system diagram.jpeg'; // Adjust the path as necessary
 function Methodology() {
   return (
     <div className="text-center mt-5 py-8 md:py-12 max-w-6xl mx-auto px-3 md:px-4">
@@ -22,7 +22,7 @@ function Methodology() {
             <div className="flex justify-center mb-4 md:mb-6 bg-white p-4 rounded-lg border border-gray-200">
               <div className="relative w-full h-72 md:h-96 lg:h-[500px] bg-white flex items-center justify-center">
                 <img 
-                  src="/src/assets/system diagram.jpeg" 
+                  src={diagram}
                   alt="System Architecture Diagram" 
                   className="max-w-full max-h-full object-contain"
                 />
