@@ -38,18 +38,16 @@ function ResearchObjectives() {
               with visual aids (like mouth animations) and individualized feedback on accuracy and audibility, 
               thereby supporting clearer speech output.
             </p>
-          </div>
-
-          <div className="bg-blue-50 p-3 md:p-5 rounded-lg shadow-sm mb-4 md:mb-6">
+          </div>          <div className="bg-blue-50 p-3 md:p-5 rounded-lg shadow-sm mb-4 md:mb-6">
             <h3 className="text-xl md:text-2xl font-semibold mb-2 md:mb-3 text-blue-700">
               Design of a System for Teaching Basic Mathematics via Finger Mathematics
             </h3>
             <p className="text-sm md:text-base text-gray-700 mb-2 md:mb-3">
-              The third objective is to design a system for teaching fundamental mathematical concepts (number 
+              The third objective is to design and implement a system for teaching fundamental mathematical concepts (number 
               recognition, sequences, addition, subtraction) to children with Down syndrome through an interactive 
-              Finger Mathematics approach. This will involve using Convolutional Neural Networks (CNNs), MediaPipe, 
-              and OpenCV for real-time finger gesture recognition, translating physical hand movements into mathematical 
-              understanding and practice, and making abstract concepts more tangible.
+              Finger Mathematics approach. This will involve leveraging MediaPipe to extract detailed hand landmarks in 
+              real-time and developing an algorithm to interpret these landmarks for accurate finger gesture recognition 
+              and direct input for mathematical operations, thereby making abstract concepts more tangible.
             </p>
           </div>
 
