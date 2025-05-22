@@ -2,7 +2,9 @@ import { motion } from "framer-motion";
 import cosupervicser from '../assets/thamalik-1682326358.jpg';
 import supervisor from '../assets/received_1709833112455269.jpeg';
 import kamesh from '../assets/kamesh.jpg';
-import lahiru from '../assets/lahiru.jpg'
+import lahiru from '../assets/lahiru.jpg';
+import amadhi from '../assets/amadhi.jpeg';
+import hiran from '../assets/hiran.jpeg';
 
 const TeamMembers = () => {
   return (
@@ -141,7 +143,7 @@ const TeamMembers = () => {
         >
           <div className="w-[140px] h-[140px] rounded-full overflow-hidden border-4 border-white shadow-lg mb-4">
             <img
-              src="https://www.kevinashleyphotography.com/wp-content/uploads/2015/11/person.jpg"
+              src={hiran}
               alt="Team Member"
               className="w-full h-full object-cover"
             />
@@ -166,7 +168,7 @@ const TeamMembers = () => {
         >
           <div className="w-[140px] h-[140px] rounded-full overflow-hidden border-4 border-white shadow-lg mb-4">
             <img
-              src="https://www.kevinashleyphotography.com/wp-content/uploads/2015/11/person.jpg"
+              src={amadhi}
               alt="Team Member"
               className="w-full h-full object-cover"
             />

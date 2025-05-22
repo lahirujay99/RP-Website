@@ -1,13 +1,13 @@
 import { FaFilePdf } from "react-icons/fa";
 import { FaFilePowerpoint } from "react-icons/fa";
 
-// Keep your original file imports unchanged
+
 import pdf from "../assets/documents/24-25J-096_Final_RP_Report.pdf";
 import chekcList from "../assets/documents/CheckList1 .pdf";
 import invidulekame from "../assets/documents/it21155352_24-25J-096 (3).pdf";
 import reserchpaper from "../assets/documents/IEEE_Conference_Template (65).pdf";
 
-// Utility components matching Eco-vision style
+
 const PrimaryTypo = ({ text }: { text: string }) => {
   return (
     <h2 className="text-3xl font-extrabold text-blue-800 sm:text-4xl text-center">
@@ -26,7 +26,7 @@ const SecondaryTypo = ({ text }: { text: string }) => {
   );
 };
 
-// Document component with Eco-vision styling
+
 function Document() {
   return (
     <section id="documents" className="py-16 bg-gray-50">
