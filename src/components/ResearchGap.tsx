@@ -23,10 +23,7 @@ function ResearchGap() {
           
           <p className="text-base md:text-lg text-gray-700 leading-relaxed">
             Furthermore, existing solutions can be complex, expensive, or not easily adaptable for home-based learning, 
-            limiting their reach and consistent use by parents who may lack specialized training or resources. A significant 
-            limitation is the general lack of consistent real-time, accurate feedback mechanisms powered by advanced deep 
-            learning technologies (like CNN and LSTM) that are applied uniformly across all these diverse developmental 
-            domains within a single, unified platform. While some tools may address one skill, such as the LVDS-App 
+            limiting their reach and consistent use by parents who may lack specialized training or resources. While some tools may address one skill, such as the LVDS-App 
             focusing on language over writing, a holistic approach that provides individualized support across multiple 
             areas is often missing. Many platforms also do not adequately facilitate continuous progress tracking and 
             parental guidance for home-based exercises that reinforce learning.
@@ -45,16 +42,19 @@ function ResearchGap() {
               <li className="text-sm md:text-base text-gray-700">
                 <span className="font-medium">Gaps in consistent, real-time, and personalized feedback: </span> 
                 Unified systems providing immediate and adaptive feedback for diverse skills rather than just one.
-              </li>
-              <li className="text-sm md:text-base text-gray-700">
+              </li>              <li className="text-sm md:text-base text-gray-700">
                 <span className="font-medium">Insufficient tailored content for multifaceted skill development: </span> 
                 Moving beyond generic games to curricula specifically designed for the learning patterns of children with Down syndrome across various developmental needs.
+              </li>
+              <li className="text-sm md:text-base text-gray-700">
+                <span className="font-medium">Limited integration of mathematics learning tools: </span> 
+                While individual tools for skills like Finger Mathematics exist, integrating these effectively with other developmental modules, especially using real-time, accurate feedback derived directly from AI-driven hand landmark analysis algorithms for mathematical operations within a unified and affordable platform, remains an area requiring further development and research.
               </li>
             </ul>
           </div>
             <p className="text-base md:text-lg text-gray-700 leading-relaxed">
             Our proposed system addresses these shortcomings by developing an affordable, integrated platform utilizing 
-            deep learning (CNN and LSTM) to provide educational support in four key areas: handwriting, verbal communication, 
+            educational support in four key areas: handwriting, verbal communication, 
             mathematics, and gross motor skills. It offers real-time, accurate feedback, enabling children to engage in 
             personalized exercises at home, and provides progress tracking to improve the quality of life for these children 
             by offering a discreet, reliable, and modern educational service. This holistic approach aims to enhance 
