@@ -24,81 +24,26 @@ function LiteratureReview() {
               creating more robust neural connections and improving retention.
             </p>
           </div>
-          
-          <div className="bg-blue-50 p-3 md:p-5 rounded-lg shadow-sm mb-4 md:mb-6">
+            <div className="bg-blue-50 p-3 md:p-5 rounded-lg shadow-sm mb-4 md:mb-6">
             <h3 className="text-xl md:text-2xl font-semibold mb-2 md:mb-3 text-blue-700">Mathematical Skill Development</h3>
             <p className="text-sm md:text-base text-gray-700 mb-2 md:mb-3">
-              For mathematical skill development, Finger Mathematics has proven scientifically and socially significant. 
-              Its efficacy is further boosted by modern technologies like:
-            </p>
-            <ul className="list-disc pl-4 md:pl-6 space-y-1 md:space-y-2">
-              <li className="text-sm md:text-base text-gray-700">
-                <span className="font-medium">Convolutional Neural Networks (CNNs)</span>: Enable complex pattern recognition
-              </li>
-              <li className="text-sm md:text-base text-gray-700">
-                <span className="font-medium">OpenCV</span>: Facilitates computer vision applications
-              </li>
-              <li className="text-sm md:text-base text-gray-700">
-                <span className="font-medium">MediaPipe</span>: Allows for real-time hand gesture and number recognition
-              </li>
-            </ul>
-            <p className="text-sm md:text-base text-gray-700 mt-2 md:mt-3">
-              These tools make learning more visual and tactile, significantly improving comprehension for children with DS.
+              For mathematical skill development, Finger Mathematics has proven scientifically and socially significant. Its efficacy can be further boosted by modern technologies like MediaPipe, which facilitates real-time hand gesture and number recognition through detailed landmark analysis directly from video streams. These tools make learning more visual and tactile, improving mathematical comprehension in children with Down syndrome.
             </p>
           </div>
-            <div className="bg-blue-50 p-3 md:p-5 rounded-lg shadow-sm mb-4 md:mb-6">
-            <h3 className="text-xl md:text-2xl font-semibold mb-2 md:mb-3 text-blue-700">Speech and Language Development</h3>
+            <div className="bg-blue-50 p-3 md:p-5 rounded-lg shadow-sm mb-4 md:mb-6">            <h3 className="text-xl md:text-2xl font-semibold mb-2 md:mb-3 text-blue-700">Speech and Language Development</h3>
             <p className="text-sm md:text-base text-gray-700 mb-2 md:mb-3">
-              In speech development, children with DS typically experience delays in output and limited vocabulary. 
-              Research shows the effectiveness of:
-            </p>
-            <ul className="list-disc pl-4 md:pl-6 space-y-1 md:space-y-2">
-              <li className="text-sm md:text-base text-gray-700">Interactive word games that engage multiple senses</li>
-              <li className="text-sm md:text-base text-gray-700">Structured learning strategies for word recognition</li>
-              <li className="text-sm md:text-base text-gray-700">Formal learning approaches to assist with pronunciation</li>
-            </ul>
-            <p className="text-sm md:text-base text-gray-700 mt-2 md:mt-3">
-              These interventions help improve communication with neurotypical individuals, enhancing social integration.
+              In speech development, children with DS typically experience delays in output and limited vocabulary. Research shows the effectiveness of interactive word games that engage multiple senses, structured learning strategies for word recognition, and formal learning approaches to assist with pronunciation. These interventions help improve communication with neurotypical individuals, enhancing social integration.
             </p>
           </div>
           
-          <div className="bg-blue-50 p-3 md:p-5 rounded-lg shadow-sm mb-4 md:mb-6">
-            <h3 className="text-xl md:text-2xl font-semibold mb-2 md:mb-3 text-blue-700">Gross Motor Skill Development</h3>
+          <div className="bg-blue-50 p-3 md:p-5 rounded-lg shadow-sm mb-4 md:mb-6">            <h3 className="text-xl md:text-2xl font-semibold mb-2 md:mb-3 text-blue-700">Gross Motor Skill Development</h3>
             <p className="text-sm md:text-base text-gray-700 mb-2 md:mb-3">
-              Gross motor skill development is often delayed due to hypotonia (low muscle tone) and coordination issues,
-              significantly affecting daily activities. Research highlights:
-            </p>
-            <ul className="list-disc pl-4 md:pl-6 space-y-1 md:space-y-2">
-              <li className="text-sm md:text-base text-gray-700">Movement-based activities to strengthen core muscles</li>
-              <li className="text-sm md:text-base text-gray-700">Kinesthetic learning strategies for improving motor coordination</li>
-              <li className="text-sm md:text-base text-gray-700">Assistive platforms like the EduPlaneer system that integrate kinesthetic, auditory, and visual learning</li>
-            </ul>
-            <p className="text-sm md:text-base text-gray-700 mt-2 md:mt-3">
-              These approaches often employ machine learning to personalize activities, creating adaptive and engaging environments.
+              Gross motor skill development is often delayed due to hypotonia (low muscle tone) and coordination issues, significantly affecting daily activities. Research highlights movement-based activities to strengthen core muscles, kinesthetic learning strategies for improving motor coordination, and assistive platforms like the EduPlaneer system that integrate kinesthetic, auditory, and visual learning. These approaches often employ machine learning to personalize activities, creating adaptive and engaging environments.
             </p>
           </div>
-            <div className="bg-blue-50 p-3 md:p-5 rounded-lg shadow-sm mb-4 md:mb-6">
-            <h3 className="text-xl md:text-2xl font-semibold mb-2 md:mb-3 text-blue-700">Fine Motor Skills & Handwriting</h3>
+            <div className="bg-blue-50 p-3 md:p-5 rounded-lg shadow-sm mb-4 md:mb-6">            <h3 className="text-xl md:text-2xl font-semibold mb-2 md:mb-3 text-blue-700">Fine Motor Skills & Handwriting</h3>
             <p className="text-sm md:text-base text-gray-700 mb-2 md:mb-3">
-              Fine motor skills, particularly writing, present substantial difficulties due to hypotonia and coordination deficits,
-              often resulting in irregular handwriting, especially with complex scripts.
-            </p>
-            <p className="text-sm md:text-base text-gray-700 mb-2 md:mb-3">
-              While traditional methods may fall short, artificial intelligence offers promising solutions:
-            </p>
-            <ul className="list-disc pl-4 md:pl-6 space-y-1 md:space-y-2">
-              <li className="text-sm md:text-base text-gray-700">
-                <span className="font-medium">Convolutional Neural Networks (CNNs)</span>: Show strong potential for recognizing unique handwriting features
-              </li>
-              <li className="text-sm md:text-base text-gray-700">
-                <span className="font-medium">Data Augmentation Techniques</span>: Help model variability in handwriting patterns
-              </li>
-              <li className="text-sm md:text-base text-gray-700">
-                <span className="font-medium">Personalized AI Systems</span>: Enhance individualized handwriting support
-              </li>
-            </ul>
-            <p className="text-sm md:text-base text-gray-700 mt-2 md:mt-3">
-              These technologies address gaps left by tools focusing primarily on language skills, providing more comprehensive support.
+              Fine motor skills, particularly writing, present substantial difficulties due to hypotonia and coordination deficits, often resulting in irregular handwriting, especially with complex scripts. While traditional methods may fall short, artificial intelligence offers promising solutions through Convolutional Neural Networks (CNNs) that show strong potential for recognizing unique handwriting features, Data Augmentation Techniques that help model variability in handwriting patterns, and Personalized AI Systems that enhance individualized handwriting support. These technologies address gaps left by tools focusing primarily on language skills, providing more comprehensive support.
             </p>
           </div>
           
