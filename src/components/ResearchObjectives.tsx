@@ -53,7 +53,7 @@ function ResearchObjectives() {
 
           <div className="bg-blue-50 p-3 md:p-5 rounded-lg shadow-sm mb-4 md:mb-6">
             <h3 className="text-xl md:text-2xl font-semibold mb-2 md:mb-3 text-blue-700">
-              Implementation of an AI-powered Module for Improving Sinhala Writing Skills
+              Implementation Module for Improving Sinhala Writing Skills
             </h3>
             <p className="text-sm md:text-base text-gray-700 mb-2 md:mb-3">
               The fourth objective is to implement an AI-powered multisensory module to improve Sinhala letter 
