@@ -36,8 +36,7 @@ function Methodology() {
             </p>
           </div>
             {/* Right column - Methodology Explanation Section */}
-          <div className="space-y-4 md:space-y-6 lg:w-1/2">
-            <p className="text-sm md:text-base text-gray-700">
+          <div className="space-y-4 md:space-y-6 lg:w-1/2">            <p className="text-sm md:text-base text-gray-700">
               The proposed multisensory learning platform consists of five main components, addressing 
               distinct developmental areas and overall progress tracking. These are:
             </p>
@@ -74,42 +73,68 @@ function Methodology() {
               </p>
               
               <p className="text-sm md:text-base text-gray-700 mb-3">
-                During the Practice stage, the child's inputs (e.g., spoken words, traced letters, 
-                mathematical gestures, physical movements) are captured. This data is sent via HTTP 
-                request to the backend Flask server. This server houses the core Backend Functions 
-                powered by Deep Learning models. Specifically:
+                During the Practice stage, the child's inputs are captured:
+              </p>
+
+              <ul className="list-disc pl-6 space-y-1 md:space-y-2">
+                <li className="text-sm md:text-base text-gray-700">
+                  For the Mathematics teaching component, video input of the child's hands is processed. 
+                  MediaPipe is used (typically client-side within the React frontend) to extract detailed hand 
+                  landmark data in real-time. This landmark data precisely represents the child's mathematical 
+                  gestures (e.g., finger counts, operational signs).
+                </li>
+                <li className="text-sm md:text-base text-gray-700">
+                  For other components, inputs such as spoken words (audio), traced letters (images), 
+                  and physical movements (video for pose estimation) are captured.
+                </li>
+              </ul>
+
+              <p className="text-sm md:text-base text-gray-700 mb-3">
+                This varied input data (audio for word pronunciation, image data for handwriting, 
+                the extracted hand landmark coordinates for mathematics, and pose data for gross motor 
+                skills) is sent via HTTP request to the backend Flask server. This server houses the 
+                core Backend Functions which process these inputs. Specifically:
               </p>
               
               <ul className="list-disc pl-6 space-y-1 md:space-y-2">
                 <li className="text-sm md:text-base text-gray-700">
                   <span className="font-medium">LSTM Models</span> are utilized for tasks involving sequential data, 
                   such as analyzing word pronunciations and assessing gross motor skill sequences 
-                  (likely using pose estimation data).
+                  (derived from pose estimation data).
                 </li>
                 <li className="text-sm md:text-base text-gray-700">
                   <span className="font-medium">CNN Models</span> are employed for visual pattern recognition tasks, 
-                  such as identifying handwritten letters and classifying finger gestures for basic 
-                  mathematics.
+                  such as identifying handwritten letters from the image data.
+                </li>
+                <li className="text-sm md:text-base text-gray-700">
+                  For the Mathematics component, a dedicated backend function on the Flask server hosts 
+                  a custom algorithm. This algorithm takes the incoming MediaPipe hand landmark data, analyzes 
+                  the spatial configuration of these landmarks, and interprets the child's finger patterns to 
+                  determine the specific number being shown (0-9) or the mathematical operation being gestured. 
+                  This provides the core logic for the finger mathematics interactions.
                 </li>
               </ul>
               
               <p className="text-sm md:text-base text-gray-700 mt-3 mb-3">
-                Frameworks like TensorFlow (implied by the logo) are used to build and run these models, 
-                and libraries such as OpenCV and MediaPipe (indicated by the logo) are used for image/video 
-                processing and feature extraction (e.g., hand landmarks, pose estimation) that feed into 
-                these models.
+                Frameworks like TensorFlow are used to build and run the LSTM and CNN models. Libraries 
+                such as OpenCV and MediaPipe are broadly utilized: MediaPipe for crucial feature extraction 
+                like hand landmarks (for mathematics) and pose estimation (for gross motor skills), and 
+                OpenCV for general image/video input handling and pre-processing, often working in conjunction 
+                before data is sent to or processed by the Flask backend functions.
               </p>
               
               <p className="text-sm md:text-base text-gray-700 mb-3">
-                The Flask server processes this input and provides real-time feedback directly to the 
-                Web System, allowing the child to immediately understand their performance.
+                The Flask server, through its respective backend functions, processes these inputs and 
+                provides real-time feedback directly to the Web System, allowing the child to immediately 
+                understand their performance in each activity.
               </p>
               
               <p className="text-sm md:text-base text-gray-700">
                 Simultaneously, data related to the child's performance and progress from the practice 
-                stages is sent via HTTP request to a Node Server. This server is responsible for Progress 
-                tracking functions. It processes and stores the child's learning data (scores, areas of 
-                difficulty, milestones achieved) into a MongoDB Database.
+                stages (including the interpretations from the mathematics component) is sent via HTTP 
+                request to a Node Server. This server is responsible for Progress tracking functions. 
+                It processes and stores the child's learning data (scores, areas of difficulty, milestones 
+                achieved) into a MongoDB Database.
               </p>
             </div>
             
