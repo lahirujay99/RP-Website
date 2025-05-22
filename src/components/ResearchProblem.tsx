@@ -64,11 +64,12 @@ function ResearchProblem() {
                 <span className="font-medium">For Verbal Communication: </span>
                 LSTMs will assess speech recordings for pronunciation accuracy and clarity, supported by 
                 visual aids like mouth animations, and offer guided practice with gamified feedback.
-              </li>
-              <li className="text-sm md:text-base text-gray-700">
+              </li>              <li className="text-sm md:text-base text-gray-700">
                 <span className="font-medium">For Mathematics: </span>
-                CNNs, integrated with MediaPipe and OpenCV, will recognize finger-based number representations 
-                for teaching basic arithmetic concepts through interactive Finger Mathematics exercises.
+                MediaPipe's hand landmark detection will be utilized directly to interpret finger-based number representations 
+                and hand gestures for teaching basic arithmetic concepts. A custom algorithm processing these detailed hand 
+                landmarks will enable real-time interaction with Finger Mathematics exercises, offering an efficient method 
+                for translating physical hand movements into mathematical input.
               </li>
               <li className="text-sm md:text-base text-gray-700">
                 <span className="font-medium">For Gross Motor Skills: </span>
