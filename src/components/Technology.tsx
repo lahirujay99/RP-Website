@@ -5,6 +5,7 @@ import react from "../assets/OIP (10).jpeg";
 import mongodb from "../assets/OIP (11).jpeg";
 import firebase from "../assets/firebase.webp";
 import nodeicon from "../assets/nodejs.jpeg";
+import mediapipe from "../assets/mediapipe.png";
 
 
 const techs = [
@@ -14,6 +15,7 @@ const techs = [
   { src: firebase, alt: "Firebase" },
   { src: nodeicon, alt: "Node.js" },
   { src: flask, alt: "Flask" },
+  { src: mediapipe, alt: "MediaPipe" },
 ];
 
 export default function TechStack() {
