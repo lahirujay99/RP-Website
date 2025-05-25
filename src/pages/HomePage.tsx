@@ -1,4 +1,3 @@
-
 import Navebar from '../components/Navebar';
 import TopPage from '../components/TopPage';
 import LiteratureReview from '../components/LiteratureReview';
@@ -12,6 +11,7 @@ import Methodology from '../components/Methodology';
 import Technology from '../components/Technology';
 import Contact from '../components/Contact';
 import Footer from '../components/Footer';
+import ResearchAcceptanceLetter from '../components/ResearchAcceptanceLetter';
 
 export default function HomePage() {  return (
     <div className="w-full overflow-x-hidden">
@@ -35,9 +35,11 @@ export default function HomePage() {  return (
         </div>
         <div id="teachnology">
           <Technology />
-        </div>
-        <div id="time">
+        </div>        <div id="time">
           <Timeline />
+        </div>
+        <div id="acceptance">
+          <ResearchAcceptanceLetter />
         </div>
         <div id="doc">
           <Docuement />

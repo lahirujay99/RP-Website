@@ -66,13 +66,13 @@ const Navbar = () => {
     { name: "Methodology", id: "methodology" },
     { name: "Technologies", id: "teachnology" },
   ];
-
   const navItems = [
     { name: "Timeline", id: "time" },
+    { name: "Acceptance Letter", id: "acceptance" },
     { name: "Documents", id: "doc" },
     { name: "Team", id: "team" },
     { name: "Contact", id: "contact" },
-  ];  return (
+  ];return (
     <motion.div
       ref={navRef}
       className="fixed top-0 left-0 right-0 z-50 flex flex-wrap justify-between py-4 px-4 bg-cyan-800 shadow-md"
