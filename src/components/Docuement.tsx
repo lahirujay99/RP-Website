@@ -6,7 +6,23 @@ import pdf from "../assets/documents/24-25J-096_Final_RP_Report.pdf";
 import chekcList from "../assets/documents/CheckList1 .pdf";
 import invidulekame from "../assets/documents/it21155352_24-25J-096 (3).pdf";
 import reserchpaper from "../assets/documents/IEEE_Conference_Template (65).pdf";
-
+// import finalPresentation from "../assets/documents/final presentation.pptx";
+// import pp2Presentation from "../assets/documents/24-25J-096 pp2 presentation.pdf";
+import lahiru from "../assets/documents/24_25J-096_IT21187100.pdf";
+import amadhi from "../assets/documents/24_25J-096_IT21338120_FinalReport.pdf";
+import hiran from "../assets/documents/24-25J-096_IT21287022.pdf";
+const finalPresentation = new URL(
+    "../assets/documents/final presentation.pptx",
+    import.meta.url
+  ).href;
+const pp1 = new URL(
+    "../assets/documents/pp1.pptx",
+    import.meta.url
+  ).href;
+const pp2 = new URL(
+    "../assets/documents/PP2.pptx",
+    import.meta.url
+  ).href;
 
 const PrimaryTypo = ({ text }: { text: string }) => {
   return (
@@ -39,7 +55,7 @@ function Document() {
           <div className="mt-8 grid grid-cols-1 gap-6 md:grid-cols-3 justify-items-center">
             <a
               href={reserchpaper}
-              download="E-learning_Report.pdf"
+              download="research paper.pdf"
               className="bg-white p-6 rounded-lg shadow-md flex flex-col items-center w-full max-w-xs transform transition duration-300 hover:shadow-xl hover:scale-105"
             >
               <FaFilePdf className="text-4xl text-red-600 mb-4" />
@@ -56,7 +72,7 @@ function Document() {
             <div className="mt-8 grid grid-cols-1 gap-6 sm:grid-cols-3 justify-items-center">
               <a
                 href={pdf}
-                download="E-learning_Report.pdf"
+                download="Final_Report.pdf"
                 className="bg-white p-6 rounded-lg shadow-md flex flex-col items-center w-full transform transition duration-300 hover:shadow-xl hover:scale-105"
               >
                 <FaFilePdf className="text-4xl text-red-600 mb-4" />
@@ -64,15 +80,15 @@ function Document() {
               </a>
               <a
                 href={chekcList}
-                download="E-learning_Report.pdf"
+                download="PP1.pdf"
                 className="bg-white p-6 rounded-lg shadow-md flex flex-col items-center w-full transform transition duration-300 hover:shadow-xl hover:scale-105"
               >
                 <FaFilePdf className="text-4xl text-red-600 mb-4" />
                 <h3 className="text-lg font-medium text-gray-900 mb-2">PP1</h3>
               </a>
               <a
-                href="/assets/documents/report.pdf"
-                download="E-learning_Report.pdf"
+                href={pp2}
+                download="PP2.pdf"
                 className="bg-white p-6 rounded-lg shadow-md flex flex-col items-center w-full transform transition duration-300 hover:shadow-xl hover:scale-105"
               >
                 <FaFilePdf className="text-4xl text-red-600 mb-4" />
@@ -86,24 +102,24 @@ function Document() {
             <SecondaryTypo text="Presentations" />
             <div className="mt-8 grid grid-cols-1 gap-6 sm:grid-cols-3 justify-items-center">
               <a
-                href="/assets/documents/presentation.pptx"
-                download="E-learning_Presentation.pptx"
+                href={finalPresentation}
+                download="final-presentation.pptx"
                 className="bg-white p-6 rounded-lg shadow-md flex flex-col items-center w-full transform transition duration-300 hover:shadow-xl hover:scale-105"
               >
                 <FaFilePowerpoint className="text-4xl text-orange-600 mb-4" />
                 <h3 className="text-lg font-medium text-gray-900 mb-2">Final PPT</h3>
               </a>
               <a
-                href="/assets/documents/presentation.pptx"
-                download="E-learning_Presentation.pptx"
+                href={pp1}
+                download="pp1-presentation.pptx"
                 className="bg-white p-6 rounded-lg shadow-md flex flex-col items-center w-full transform transition duration-300 hover:shadow-xl hover:scale-105"
               >
                 <FaFilePowerpoint className="text-4xl text-orange-600 mb-4" />
                 <h3 className="text-lg font-medium text-gray-900 mb-2">PP1 PPT</h3>
               </a>
               <a
-                href="/assets/documents/presentation.pptx"
-                download="E-learning_Presentation.pptx"
+                href={pp2}
+                download="pp2-presentation.pptx"
                 className="bg-white p-6 rounded-lg shadow-md flex flex-col items-center w-full transform transition duration-300 hover:shadow-xl hover:scale-105"
               >
                 <FaFilePowerpoint className="text-4xl text-orange-600 mb-4" />
@@ -128,7 +144,7 @@ function Document() {
               </h3>
             </a>
             <a
-              href="/assets/documents/report.pdf"
+              href={hiran}
               download="E-learning_Report.pdf"
               className="bg-white p-6 rounded-lg shadow-md flex flex-col items-center w-full transform transition duration-300 hover:shadow-xl hover:scale-105"
             >
@@ -138,7 +154,7 @@ function Document() {
               </h3>
             </a>
             <a
-              href="/assets/documents/report.pdf"
+              href={lahiru}
               download="E-learning_Report.pdf"
               className="bg-white p-6 rounded-lg shadow-md flex flex-col items-center w-full transform transition duration-300 hover:shadow-xl hover:scale-105"
             >
@@ -148,7 +164,7 @@ function Document() {
               </h3>
             </a>
             <a
-              href="/assets/documents/report.pdf"
+              href={amadhi}
               download="E-learning_Report.pdf"
               className="bg-white p-6 rounded-lg shadow-md flex flex-col items-center w-full transform transition duration-300 hover:shadow-xl hover:scale-105"
             >
