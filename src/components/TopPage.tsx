@@ -18,6 +18,16 @@ function TopPage() {
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 1 }}
       >
+        {/* Localized blur effect only behind the text */}
+        <div className="relative">
+          <div className="absolute inset-0 bg-black/30 backdrop-blur-sm rounded-lg -m-2 p-4"></div>
+          <h1 className="text-5xl md:text-6xl font-bold text-white drop-shadow-lg mb-2 relative z-10">
+            Little Hearts
+          </h1>
+          <p className="text-xl md:text-2xl text-white font-light italic relative z-10 max-w-3xl">
+            multisensory learning tools for children with Down syndrome
+          </p>
+        </div>
       </motion.div>
     </div>
   );
